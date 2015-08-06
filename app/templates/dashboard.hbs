@@ -1,1 +1,8 @@
-{{outlet}}
+<h3>Placeholder Numbers</h3>
+<ul>
+{{#each model as |pr|}}
+  <li>
+    {{pr.category}}: ${{pr.amount}}
+  </li>
+{{/each}}
+</ul>
