@@ -2,7 +2,7 @@
 <ul>
 {{#each model as |pr|}}
   <li>
-    {{pr.category}}: ${{pr.amount}}
+    <a href="{{pr.category}}">{{pr.category}}</a>: ${{pr.amount}}
   </li>
 {{/each}}
 </ul>
